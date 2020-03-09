@@ -499,3 +499,17 @@ contributors:
       contact_github: piotr-faba-ardigen
       location: [50.021348, 19.891909]
       twitter: Ardigen_SA
+      
+      - full_name: Seqera Labs
+      short_name: Seqera
+      description: >
+        Seqera Labs are creators and project maintainers of Nextflow. We provide high-throughput computing solutions
+        to simplify complex data analysis pipelines in pharma and biomedicine.
+      address: Carrer Dr. Aiguader, 88, 08003 Barcelona, Spain
+      url: http://www.seqera.io
+      image_fn: seqera.svg
+      contact: Evan Floden
+      contact_email: evan@seqera.io
+      contact_github: evanfloden
+      location: [41.3853828, 2.191863]
+      twitter: SeqeraLabs
