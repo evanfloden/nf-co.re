@@ -1,5 +1,5 @@
 ---
-title: Design Guidelines
+title: Graphic design guidelines
 subtitle: Templates, common images, and design-related content for nf-core.
 ---
 
@@ -21,8 +21,6 @@ All information for the nf-core logo can be seen at the [nf-core/logos GitHub re
 | Monochrome - dark background | <img class="bg-dark d-block p-2" src="https://raw.githubusercontent.com/nf-core/logos/master/nf-core-logos/nf-core-logo-mono-white.png" width="300"> | [PNG](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-mono-white.png) <br> [SVG](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-mono-white.svg) <br> [Adobe Illustrator `.ai`](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-mono-white.ai) |
 | Square | <img src="https://raw.githubusercontent.com/nf-core/logos/master/nf-core-logos/nf-core-logo-square.png" width="60"> | [PNG](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-square.png) <br> [SVG](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-square.svg) <br> [Adobe Illustrator `.ai`](https://github.com/nf-core/logos/blob/master/nf-core-logos/nf-core-logo-square.ai) |
 
-See also the [Social preview template](https://github.com/nf-core/logos/blob/master/nf-core-logos/social_preview_image_template.svg).
-
 The `nf-core create` command will generate a logo for your pipeline automatically.
 However, you can also do this yourself by visiting [https://nf-co.re/logo/pipelinename](https://nf-co.re/logo/pipelinename), where `pipelinename` can be anything.
 
@@ -42,7 +40,6 @@ The nf-core green colour is as follows:
 
 nf-core regularly host [community events](https://nf-co.re/events), such as hackathons, and encourage training (e.g. [nf-core tutorials](https://nf-co.re/usage/nf_core_tutorial)) the wider bioinformatics community in creating nextflow and nf-core pipelines.
 
-
 <!--
 If you wish to introduce or run training sessions to your group or network, you can access a Google Doc template **here**.
 -->
@@ -51,6 +48,8 @@ If you wish to introduce or run training sessions to your group or network, you 
 
 It is often useful to have simplified diagrams that outline the main functionality and steps of a pipeline.
 This helps new users get an overview of a workflow when visiting a pipeline webpage or repository for the first time.
+
+Most workflow diagrams are made by hand using vector image editors such as the open-source [Inkscape](https://inkscape.org/) or commercial suites such as [Adobe Illustrator](https://www.adobe.com/products/illustrator.html). Useful tools for collaborative prototyping include [Google Drawings](https://docs.google.com/drawings/) or [LucidChart](www.lucidchart.com). All examples and components below can be opened in these editors, and various parts borrowed and/or modified as necessary.
 
 ### Examples
 
@@ -61,7 +60,13 @@ Click the schematic image to see the original.
 | Workflow Example   | nf-core Pipeline | License/Publication |
 |:------------------:|------------------|---------|
 | <a href="https://github.com/nf-core/sarek/blob/master/docs/images/sarek_workflow.png"><img src="https://raw.githubusercontent.com/nf-core/sarek/master/docs/images/sarek_workflow.png" alt="nf-core/sarek workflow" height="300"></a> | [nf-core/sarek](https://nf-co.re/sarek) | From [Garcia _et al._ (2020, F1000 Research)](https://doi.org/10.12688/f1000research.16665.1) under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license. |
-| <a href="https://github.com/nf-core/eager/blob/dev/docs/images/output/overview/eager2_workflow.png"><img src="https://raw.githubusercontent.com/nf-core/eager/dev/docs/images/output/overview/eager2_workflow.png" alt="nf-core/eager workflow" width="400"></a> | [nf-core/eager](https://nf-co.re/eager) | From [Fellows Yates _et al._ (2020, bioRxiv)](https://doi.org/10.1101/2020.06.11.145615) under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license |
+| <a href="https://github.com/nf-core/eager/blob/master/docs/images/output/overview/eager2_workflow.png"><img src="https://raw.githubusercontent.com/nf-core/eager/master/docs/images/usage/eager2_workflow.png" alt="nf-core/eager workflow simple" width="400"></a> | [nf-core/eager](https://nf-co.re/eager) | From [Fellows Yates _et al._ (2020, bioRxiv)](https://doi.org/10.1101/2020.06.11.145615) under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license |
+| <a href="https://github.com/nf-core/eager/raw/master/docs/images/usage/eager2_metromap_complex.png"><img src="https://github.com/nf-core/eager/raw/master/docs/images/usage/eager2_metromap_complex.png" alt="nf-core/eager workflow detailed" width="400"></a> | [nf-core/eager](https://nf-co.re/eager) |  From [Fellows Yates _et al._ (2021, PeerJ)](https://doi.org/10.7717/peerj.10947) under a [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license |
+| <a href="https://github.com/nf-core/dualrnaseq/raw/master/docs/images/Workflow_diagram_dualrnaseq.png"><img src="https://github.com/nf-core/dualrnaseq/raw/master/docs/images/Workflow_diagram_dualrnaseq.png" alt="nf-core/dualrnaseq workflow" width="400"></a> | [nf-core/dualrnaseq](https://nf-co.re/dualrnaseq) | By Regan Hayward under [MIT](https://github.com/nf-core/dualrnaseq/blob/master/LICENSE) license |
+| <a href="https://github.com/nf-core/circrna/raw/master/docs/images/workflow.png"><img src="https://github.com/nf-core/circrna/raw/master/docs/images/workflow.png" alt="nf-core/circrna workflow" width="400"></a> | [nf-core/circrna](https://nf-co.re/circrna) | By Barry Digby under [MIT](https://github.com/nf-core/circrna/blob/master/LICENSE) license |
+| <a href="https://raw.githubusercontent.com/nf-core/mag/master/docs/images/mag_workflow.png"><img src="https://raw.githubusercontent.com/nf-core/mag/master/docs/images/mag_workflow.png" alt="nf-core/mag workflow" width="400"></a> | [nf-core/mag](https://nf-co.re/mag) | By Sabrina Krakau under [MIT](https://github.com/nf-core/mag/blob/master/LICENSE) license |
+| <a href="https://github.com/nf-core/bactmap/raw/master/docs/images/Bactmap_pipeline.png"><img src="https://github.com/nf-core/bactmap/raw/master/docs/images/Bactmap_pipeline.png" alt="nf-core/bactmap workflow" width="400"></a> | [nf-core/bactmap](https://nf-co.re/bactmap) | By Anthony Underwood under [MIT](https://github.com/nf-core/mag/blob/master/LICENSE) license |
+
 
 ### Components
 
